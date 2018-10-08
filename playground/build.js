@@ -1,7 +1,5 @@
 'use strict';
 
-debugger;
-
 const productionIndex = process.argv.indexOf('--production');
 if (productionIndex !== -1) {
   process.argv[productionIndex] = '--env.production';
